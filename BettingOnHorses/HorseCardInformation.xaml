@@ -1,0 +1,30 @@
+﻿<Window x:Class="BettingOnHorses.HorseCardInformation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BettingOnHorses"
+        mc:Ignorable="d"
+        Title="Detail kartičky koně" Height="400" Width="440" Icon="pack://siteoforigin:,,,/Resources/horse2.png" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="GridHorseCardInformation">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Jméno koně:" HorizontalAlignment="Right" VerticalAlignment="Center"   FontSize="27"  Grid.ColumnSpan="1" Grid.Row="1"  />
+        <Label Content="Cena:" HorizontalAlignment="Right" VerticalAlignment="Center"   FontSize="27" Grid.Row="2"   />
+        <Label Content="Vlastník:" HorizontalAlignment="Right" VerticalAlignment="Center"   FontSize="27" Grid.ColumnSpan="1" Grid.Row="3" />
+        <Label Content="Dostihy:" HorizontalAlignment="Right" VerticalAlignment="Center"   FontSize="27" Grid.ColumnSpan="1" Grid.Row="4" />
+        <Label Content="Cena za dostih:" HorizontalAlignment="Right" VerticalAlignment="Center"   FontSize="27" Grid.ColumnSpan="1" Grid.Row="5" />
+    </Grid>
+</Window>
