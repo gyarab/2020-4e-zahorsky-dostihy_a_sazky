@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BettingOnHorses</id>
+    <version>1.0.0</version>
+    <authors>BettingOnHorses</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="BettingOnHorsesLogic" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="BettingOnHorsesModel" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorses\bin\Debug\netcoreapp3.1\BettingOnHorses.runtimeconfig.json" target="lib\netcoreapp3.1\BettingOnHorses.runtimeconfig.json" />
+    <file src="D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorses\bin\Debug\netcoreapp3.1\BettingOnHorses.dll" target="lib\netcoreapp3.1\BettingOnHorses.dll" />
+  </files>
+</package>
