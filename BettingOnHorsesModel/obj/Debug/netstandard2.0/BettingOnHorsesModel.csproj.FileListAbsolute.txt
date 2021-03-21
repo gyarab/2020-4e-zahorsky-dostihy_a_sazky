@@ -1,9 +1,0 @@
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.AssemblyInfoInputs.cache
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.AssemblyInfo.cs
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.csproj.CoreCompileInputs.cache
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\bin\Debug\netstandard2.0\BettingOnHorsesModel.deps.json
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\bin\Debug\netstandard2.0\BettingOnHorsesModel.dll
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\bin\Debug\netstandard2.0\BettingOnHorsesModel.pdb
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.dll
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.pdb
-D:\Documents\Ročníková práce - Dostihy a sázky\BoH\BettingOnHorsesModel\obj\Debug\netstandard2.0\BettingOnHorsesModel.csprojAssemblyReference.cache
