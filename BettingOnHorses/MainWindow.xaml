@@ -1,0 +1,50 @@
+﻿<Window x:Class="BettingOnHorses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BettingOnHorses"
+        mc:Ignorable="d"
+        Title="Dostihy a sázky" Height="900" Width="1200" Icon="pack://siteoforigin:,,,/Resources/money.png" WindowState="Maximized">
+    <Grid x:Name="GridMain" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <!--Nápis-->
+        <Label Content="DOSTIHY A SÁZKY" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32" Grid.ColumnSpan="3" FontWeight="Bold"/>
+        <Image Source="pack://siteoforigin:,,,/Resources/horse2.png" Grid.Column="4" Grid.Row="2" VerticalAlignment="Bottom" Height="125" Grid.RowSpan="2"/>
+        <Label Content="Vyberte počet hráčů:" Grid.Column="4" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="12" FontWeight="Bold"/>
+        
+        <!--ComboBox na zvolení hodnoty počtu hráčů. Defaultní hodnota je na dvou hráčích.-->
+        <ComboBox Name="ComboBoxPlayers" Grid.Column="4" Grid.Row="4" VerticalAlignment="Center" Width="120" SelectedIndex="0">
+            <ComboBoxItem>Dva hráči</ComboBoxItem>
+            <ComboBoxItem>Tři hráči</ComboBoxItem>
+            <ComboBoxItem>Čtyři hráči</ComboBoxItem>
+        </ComboBox>
+        
+        <!--Tlačítko pro začátek hry-->
+        <Button Name="ButtonNewGame" Content="Nová hra" Grid.Column="4" Grid.Row="5" VerticalAlignment="Center" Click="ButtonNewGame_Click" Padding="8" FontSize="13" FontWeight="Bold"/>
+    </Grid>
+</Window>
